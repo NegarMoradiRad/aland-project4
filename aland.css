@@ -40,7 +40,7 @@ body {
   
   /* Navigation Bar */
   nav {
-    background-color: #2980b9; /* Blue background for navigation bar */
+    background-color: #f0f3f5; /* Blue background for navigation bar */
     color: white; /* White text for better contrast */
     padding: 1em;
     text-align: center; /* Links centered horizontally */
@@ -60,7 +60,7 @@ body {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: #eee; /* Light background for icons */
+    background-color: #f3f6fa; /* Light background for icons */
     position: absolute; /* Position icons relative to links */
     top: 50%;
     transform: translateY(-50%); /* Center icons vertically */
@@ -81,3 +81,83 @@ body {
   
   /* ... other styles from previous version ... */
   
+a:hover {
+    color: #007bff;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: 0.5em 0;
+  }
+  
+  /* Navigation bar */
+  nav {
+    background-color: #0b78d8;
+    padding: 1em;
+  }
+  
+  nav a {
+    display: inline-block;
+    margin-right: 1em;
+  }
+  
+  /* Header section */
+  header {
+    background-color: #f5f5f5;
+    padding: 1em;
+    border-top: 1px solid #ddd;
+  }
+  
+  header form {
+    margin: 1em 0;
+  }
+  
+  header label {
+    display: block;
+    margin-bottom: 0.5em;
+  }
+  
+  header input[type="text"],
+  header input[type="number"],
+  header select {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+  }
+  
+  header input[type="radio"] {
+    margin-right: 0.5em;
+  }
+  
+  header input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Main content section */
+  #main {
+    padding: 1em;
+  }
+  
+  pre {
+    background-color: #f0f0f0;
+    padding: 1em;
+    border: 1px solid #ddd;
+  }
+  
+  iframe {
+    width: 100%;
+    height: 300px; /* Adjust height as needed */
+  }
+  
+  /* Footer section */
+  footer {
+    background-color: #eee;
+    padding: 1em;
+    text-align: center;
+    border-top: 1px solid #ddd;
+  }
