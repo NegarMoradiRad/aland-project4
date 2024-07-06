@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light gray background */
+    background-image: url("path/to/circuit_background.png"); /* Add subtle circuit board background image */
+    background-repeat: repeat;
+    background-size: cover;
+  }
+  
+  h1, h2, h3, h4 {
+    margin: 1em 0;
+    padding: 0.5em 1em;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  p {
+    margin: 0.5em 0;
+    line-height: 1.5;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    font-weight: bold; /* Bold text for links */
+  }
+  
+  a:hover {
+    color: #007bff;
+    background-color: #eee; /* Subtle hover effect with light background */
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: 0.5em 0;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    background-color: #2980b9; /* Blue background for navigation bar */
+    color: white; /* White text for better contrast */
+    padding: 1em;
+    text-align: center; /* Links centered horizontally */
+    display: flex; /* Use flexbox for better layout */
+    justify-content: space-between; /* Distribute links evenly */
+  }
+  
+  nav a {
+    display: inline-block;
+    margin: 0 1em; /* Add some margin for separation */
+    position: relative; /* Required for icon positioning */
+  }
+  
+  nav a::after {
+    content: ""; /* Add pseudo-element for decorative icons */
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #eee; /* Light background for icons */
+    position: absolute; /* Position icons relative to links */
+    top: 50%;
+    transform: translateY(-50%); /* Center icons vertically */
+    right: -10px; /* Position icons to the right of links */
+  }
+  
+  nav a.home::after {
+    background-image: url("path/to/home_icon.svg"); /* Replace with your home icon SVG */
+    background-repeat: no-repeat;
+    background-position: center; /* Center icon within pseudo-element */
+  }
+  
+  nav a.newsletters::after {
+    background-image: url("path/to/newsletter_icon.svg"); /* Replace with your newsletter icon SVG */
+    background-repeat: no-repeat;
+    background-position: center; /* Center icon within pseudo-element */
+  }
+  
+  /* ... other styles from previous version ... */
+  
