@@ -1,7 +1,7 @@
 # aland-website-with-HtmlCss
 Building the front-end of a website using HTML and CSS, symbolically named Aland
 
-📜 How to Use
+##📜 How to Use:
 Clone the repository
 git clone https://github.com/your-username/todo-list.git
 Open aland.html in a browser
